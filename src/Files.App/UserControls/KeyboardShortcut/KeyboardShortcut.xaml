@@ -51,7 +51,7 @@
 						Background="{ThemeResource OutlinedStyleBackgroundBrush}"
 						BorderBrush="{ThemeResource TextFillColorTertiaryBrush}"
 						BorderThickness="1"
-						CornerRadius="2">
+						CornerRadius="0">
 						<TextBlock
 							x:Name="PART_MainTextTextBlock"
 							Margin="4,0"
@@ -94,7 +94,7 @@
 					<Grid
 						x:Name="PART_ContentRoot"
 						Background="{ThemeResource SystemControlBackgroundAccentBrush}"
-						CornerRadius="2">
+						CornerRadius="0">
 						<TextBlock
 							x:Name="PART_MainTextTextBlock"
 							Margin="4,0"

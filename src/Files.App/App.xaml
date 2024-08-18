@@ -18,8 +18,8 @@
 			<!--  Workaround for an issue where the shadow was showing on the tab control  -->
 			<x:Double x:Key="TabViewShadowDepth">0</x:Double>
 
-			<CornerRadius x:Key="GridViewThumbnailCornerRadius">2</CornerRadius>
-			<CornerRadius x:Key="DetailsLayoutThumbnailCornerRadius">2</CornerRadius>
+			<CornerRadius x:Key="GridViewThumbnailCornerRadius">0</CornerRadius>
+			<CornerRadius x:Key="DetailsLayoutThumbnailCornerRadius">0</CornerRadius>
 
 			<!--  Workaround for https://github.com/files-community/Files/issues/13078  -->
 			<Style TargetType="FlyoutPresenter">

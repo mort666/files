@@ -105,7 +105,7 @@
 			Background="Transparent"
 			BorderBrush="Transparent"
 			Canvas.ZIndex="100"
-			CornerRadius="2"
+			CornerRadius="0"
 			DoubleTapped="SidebarResizer_DoubleTapped"
 			ManipulationCompleted="SidebarResizer_ManipulationCompleted"
 			ManipulationDelta="SidebarResizer_ManipulationDelta"
@@ -149,7 +149,7 @@
 						<Setter Target="PaneColumnGrid.Background" Value="{ThemeResource AcrylicBackgroundFillColorDefaultBrush}" />
 						<Setter Target="PaneColumnGrid.BorderBrush" Value="{ThemeResource CardStrokeColorDefaultBrush}" />
 						<Setter Target="PaneColumnGrid.BorderThickness" Value="0,1,1,0" />
-						<Setter Target="PaneColumnGrid.CornerRadius" Value="0,8,0,8" />
+						<Setter Target="PaneColumnGrid.CornerRadius" Value="0,0,0,0" />
 						<Setter Target="ContentPresenter.(Grid.Column)" Value="0" />
 						<Setter Target="ContentPresenter.(Grid.ColumnSpan)" Value="3" />
 						<Setter Target="SidebarResizer.Visibility" Value="Collapsed" />
@@ -165,7 +165,7 @@
 						<Setter Target="PaneColumnGrid.Background" Value="{ThemeResource AcrylicBackgroundFillColorDefaultBrush}" />
 						<Setter Target="PaneColumnGrid.BorderBrush" Value="{ThemeResource CardStrokeColorDefaultBrush}" />
 						<Setter Target="PaneColumnGrid.BorderThickness" Value="0,1,1,0" />
-						<Setter Target="PaneColumnGrid.CornerRadius" Value="0,8,0,8" />
+						<Setter Target="PaneColumnGrid.CornerRadius" Value="0,0,0,0" />
 						<Setter Target="ContentPresenter.(Grid.Column)" Value="0" />
 						<Setter Target="ContentPresenter.(Grid.ColumnSpan)" Value="3" />
 						<Setter Target="SidebarResizer.Visibility" Value="Collapsed" />

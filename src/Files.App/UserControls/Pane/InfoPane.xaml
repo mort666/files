@@ -50,7 +50,7 @@
 											Height="32"
 											Background="Transparent"
 											BorderThickness="1"
-											CornerRadius="4">
+											CornerRadius="0">
 											<ContentPresenter
 												x:Name="ContentPresenter"
 												Padding="16,0,16,0"
@@ -68,7 +68,7 @@
 												HorizontalAlignment="Center"
 												VerticalAlignment="Bottom"
 												Background="Transparent"
-												CornerRadius="1" />
+												CornerRadius="0" />
 										</Grid>
 										<VisualStateManager.VisualStateGroups>
 											<VisualStateGroup x:Name="CommonStates">
@@ -139,7 +139,7 @@
 		BackgroundSizing="InnerBorderEdge"
 		BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
 		BorderThickness="1"
-		CornerRadius="8">
+		CornerRadius="0">
 		<Grid.RowDefinitions>
 			<RowDefinition Height="Auto" />
 			<RowDefinition Height="2*" />
@@ -162,7 +162,7 @@
 			Background="{ThemeResource SubtleFillColorTertiaryBrush}"
 			BorderBrush="{ThemeResource DividerStrokeColorDefaultBrush}"
 			BorderThickness="1"
-			CornerRadius="4"
+			CornerRadius="0"
 			Orientation="Horizontal">
 			<!--  Details  -->
 			<RadioButton
@@ -303,7 +303,7 @@
 										HorizontalAlignment="Left"
 										VerticalAlignment="Center"
 										Background="{ThemeResource SubtleFillColorTransparent}"
-										CornerRadius="12">
+										CornerRadius="0">
 										<!--  Tag Template  -->
 										<StackPanel
 											x:Name="TagStackPanel"

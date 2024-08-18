@@ -121,7 +121,7 @@ namespace Files.App.UserControls
 			_gradientStop4 = compositor.CreateColorGradientStop();
 			SetGradientAndStops();
 			SetGradientStopColorsByTheme();
-			_rectangleGeometry.CornerRadius = new Vector2((float)CornerRadius.TopLeft);
+			_rectangleGeometry.CornerRadius = new Vector2((float)0);
 			var spriteShape = compositor.CreateSpriteShape(_rectangleGeometry);
 			spriteShape.FillBrush = _shimmerMaskGradient;
 			_shapeVisual.Shapes.Add(spriteShape);
