@@ -57,10 +57,10 @@ jobs:
         . './scripts/Configure-AppxManifest.ps1' `
           -Branch "$env:CONFIGURATION" `
           -PackageManifestPath "$env:PACKAGE_MANIFEST_PATH" `
-          -Publisher "$env:SIDELOAD_PUBLISHER_SECRET" `
+          -Publisher "env:SIDELOAD_PUBLISHER_SECRET" `
           -WorkingDir "$env:WORKING_DIR" `
-          -SecretBingMapsKey "$env:SECRET_BINGMAPS_KEY" `
-          -SecretSentry "$env:SECRET_SENTRY" `
+          -SecretBingMapsKey "env:SECRET_BINGMAPS_KEY" `
+          -SecretSentry "env:SECRET_SENTRY" `
           -SecretGitHubOAuthClientId "$env:SECRET_GITHUB_OAUTH_CLIENT_ID"
       env:
         SIDELOAD_PUBLISHER_SECRET: ${{ secrets.SIDELOAD_PUBLISHER_SECRET }}
